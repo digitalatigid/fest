@@ -1,7 +1,9 @@
 #![feature(box_syntax)]
 #![feature(conservative_impl_trait)]
+#![feature(generators)]
+#![feature(proc_macro)]
 
-extern crate futures;
+extern crate futures_await as futures;
 extern crate hyper;
 extern crate gio;
 extern crate gtk;
